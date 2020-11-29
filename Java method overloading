@@ -36,4 +36,17 @@ public class Add {
             y = bc.nextFloat();*/
             add(4, 5);
             
+             /*else if(a==3){       
+            Scanner bc = new Scanner(System.in);
+            System.out.println("Enter the two operands: ");
+            x = cd.nextFloat();
+            y = cd.nextFloat(); 
+            z = cd.nextFloat();  
+            add('x', 'y', 'z');
+          }*/
+        }
+    
+}   
+
+            
             
