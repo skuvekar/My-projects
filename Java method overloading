@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Add {
+     //float i, j, r, k, l, m, result;;
+     
+     void add(float x, float y)
+    {   //float i, j;
+        /*Scanner bc = new Scanner(System.in);
+        System.out.println("Enter the two operands: ");
+        i = bc.nextFloat();
+        j = bc.nextFloat();*/
+        System.out.println("The sum of " + x + " and " + y + " is " +(x+y));
+        }
+    void add(float i, float j, float m)
+    {   //float k, l, m, result;
+        Scanner cd = new Scanner(System.in);
+        System.out.println('\n' + "Enter the three operands: ");
+        i = cd.nextFloat();
+        j = cd.nextFloat();
+        m = cd.nextFloat();
+        result = k+l+m; 
+        System.out.println('\n' + "The sum of"+ i + " ," +  j + " and" + m +" is " +result);
+        }        
+    public static void main(String args[]) {
+         int a;
+         float x, y, z;
+         Scanner obj = new Scanner(System.in);
+         System.out.println("Program to perform addition"); 
+         System.out.println("\n"+"Do you want to operate on 2 operands or 3 operands?");
+         a = obj.nextInt();
+         Add ab = new Add();
+         /*if(a==2)
+            { Scanner bc = new Scanner(System.in);
+            System.out.println("Enter the two operands: ");
+            x = bc.nextFloat();
+            y = bc.nextFloat();*/
+            add(4, 5);
+            
+            
